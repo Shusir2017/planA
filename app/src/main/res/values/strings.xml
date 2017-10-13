@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PlanA</string>
+    <string name="nav_property">资产</string>
+    <string name="nav_plan">计划</string>
+    
+    <string name="setting_data">设置</string>
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/Base_AppMain</color>
+    <color name="colorPrimaryDark">@color/black_</color>
+    <color name="colorAccent">@color/black_</color>
+
+
+    <!-- 常用颜色值 -->
+    <color name="white40">#F5F7F9</color>
+    <color name="white">#ffffff</color>
+    <color name="black_">#000000</color>
+    <color name="gray">#808080</color>
+    <color name="red">#FF0007</color>
+    <color name="gold">#FFD700</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="green">#008000</color>
+    <color name="purple">#800080</color>
+    <color name="pink">#FFC0CB</color>
+    <color name="orange">#FFA500</color>
+    <color name="graywhite">#F5F5F5</color>
+    <color name="grayslate">#708090</color>
+    <color name="lightblue">#0083FF</color>
+    <color name="reload_color">#FF1E1E</color>
+    <color name="window_background">@color/white</color>
+
+
+    <color name="Base_AppMain">#9AD9EA</color>
+    <color name="Base_Subhead">#666666</color>
+    <color name="Base_Line">#DDDDDD</color>
+    <color name="Base_Text">#333333</color>
+
+</resources>

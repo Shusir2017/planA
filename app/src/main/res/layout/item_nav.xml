@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="@dimen/space_49"
+              android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/nav_money_click"
+            android:layout_width="@dimen/space_0"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/nav_money"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/space_5"
+                android:src="@drawable/nav_money_img_select"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/nav_money"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/space_3"
+                android:gravity="center"
+                android:text="@string/nav_property"
+                android:textColor="@color/nav_text"
+                android:textSize="@dimen/space_11"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/nav_plan_click"
+            android:layout_width="@dimen/space_0"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/nav_plan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/space_5"
+                android:src="@drawable/nav_plan_img_select"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/nav_plan"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/space_3"
+                android:gravity="center"
+                android:text="@string/nav_plan"
+                android:textColor="@color/nav_text"
+                android:textSize="@dimen/space_11"
+                />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
